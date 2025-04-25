@@ -657,7 +657,7 @@
     flex-direction: row;
     align-items: center;
     gap: 0.5rem;
-    font-size: 6px;
+    font-size: 12px;
     line-height: 100%;
   }
   #faq .faq-wrapper .faq-item .plus {
@@ -680,7 +680,7 @@
     flex-direction: row;
     align-items: center;
     gap: 0.5rem;
-    font-size: 6px;
+    font-size: 12px;
     line-height: 100%;
   }
 
