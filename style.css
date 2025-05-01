@@ -1,177 +1,179 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+body{
+  font-family: 'Inter', sans-serif;
+}
+/* bar section */
 
-  *{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-    list-style: none;
-    text-decoration: none;
-  }
-  body{
-    font-family: 'Inter', sans-serif;
-  }
-  /* bar section */
+#bar {
+  background: linear-gradient(to right,#feecff,#fecaff,#feb5ff,#ffdbe7,#fff4d6,#f3fcd7,#d2f5ee,#c3efff,#fbefff);
+  padding: 10px 20px;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.875rem;
+  color: #111;
+  font-size: 14px;
+  color: #000000;
+}
 
-  #bar {
-    background: linear-gradient(to right,#feecff,#fecaff,#feb5ff,#ffdbe7,#fff4d6,#f3fcd7,#d2f5ee,#c3efff,#fbefff);
-    padding: 10px 20px;
-    text-align: center;
-    font-family: 'Inter', sans-serif;
-    font-size: 14px;
-    color: #000000;
-  }
+#bar p {
+  margin: 0;
+}
 
-  #bar p {
-    margin: 0;
-  }
-
-  #bar a {
-    color: #000000;
-    font-weight: 500;
-    text-decoration: none;
-    margin-left: 4px;
-    transition: color 0.3s ease;
-  }
-  
-  #bar a:hover {
-    color: #333;
-  }
-
-  /* navbar-desktop */
-
-  #navbar-desktop {
-    background-color: #000000; 
-    padding: 12px 24px;
-    width: 100%;
-    box-sizing: border-box;
-  }
-
-  #navbar-desktop .navbar-content {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-
-  #navbar-desktop .logo {
-  width: 40px;
-  height:40px;
-  object-fit: contain;
-  }
-
-  #navbar-desktop .get-button {
-  background-color: #fff;
-  color: #000;
-  border: none;
-  padding: 10px 16px;
-  border-radius: 8px;
-  font-size: 16px;
+#bar a {
+  color: #111;
+  color: #000000;
   font-weight: 500;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-  }
+  text-decoration: none;
+  margin-left: 4px;
+  transition: color 0.3s ease;
+}
 
-  #navbar-desktop .get-button:hover {
-    background-color: #e0e0e0;
-  }
+#bar a:hover {
+  color: #333;
+}
 
-  /* #navbar-desktop .hamburger {
-    display: none;
-  } */
+/* navbar-desktop */
+
+#navbar-desktop {
+  background-color: #000000; 
+  padding: 12px 24px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#navbar-desktop .navbar-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ }
+
+ #navbar-desktop .logo {
+ width: 40px;
+ height:40px;
+ object-fit: contain;
+ }
+
+ #navbar-desktop .get-button {
+ background-color: #fff;
+ color: #000;
+ border: none;
+ padding: 10px 16px;
+ border-radius: 8px;
+ font-size: 0.9rem;
+ font-size: 16px;
+ font-weight: 500;
+ cursor: pointer;
+ transition: background-color 0.3s ease;
+ }
+
+ #navbar-desktop .get-button:hover {
+   background-color: #e0e0e0;
+ }
+
+ /* #navbar-desktop .hamburger {
+   display: none;
+ } */
 
 /* Hero Section */
 #hero {
-  background: linear-gradient(to bottom, #000000,#200d42,#4f21a1,#a46edb,#000);
-  color: white;
-  text-align: center;
-  padding: 80px 20px;
-  position: relative;
-  overflow: hidden;
+ background: linear-gradient(to bottom, #000000,#200d42,#4f21a1,#a46edb,#000);
+ color: white;
+ text-align: center;
+ padding: 80px 20px;
+ position: relative;
+ overflow: hidden;
 }
 
 #hero .hero-wrapper {
-  max-width: 64%;
-  width: 100%;
-  margin: 0 auto;
-  position: relative;
+ max-width: 64%;
+ width: 100%;
+ margin: 0 auto;
+ position: relative;
 }
 
 #hero .version {
-  display: inline-block;
-  background: rgba(255, 255, 255, 0.1);
-  color: #ccc;
-  padding: 6px 16px;
-  border-radius: 999px;
-  font-size: 12px;
-  margin-bottom: 20px;
+ display: inline-block;
+ background: rgba(255, 255, 255, 0.1);
+ color: #ccc;
+ padding: 6px 16px;
+ border-radius: 999px;
+ font-size: 12px;
+ margin-bottom: 20px;
 }
 
 #hero .version a {
-  color: white;
-  font-weight: 500;
-  margin-left: 5px;
-  text-decoration: none;
+ color: white;
+ font-weight: 500;
+ margin-left: 5px;
+ text-decoration: none;
 }
 
 #hero .hero-title {
-  font-size: 165px;
-  line-height: 125px;
-  font-weight: 700;
-  margin: 0 0 20px;
-  font-family: 'DM Sans', sans-serif;
-  letter-spacing: -7.5%;
+ font-size: 165px;
+ line-height: 125px;
+ font-weight: 700;
+ margin: 0 0 20px;
+ font-family: 'DM Sans', sans-serif;
+ letter-spacing: -7.5%;
 }
 
 #hero .hero-title span {
-  display: block;
+ display: block;
 }
 #hero .hero-title .hero-description{
-  font-size: 22px;
-  font-weight: 400;
-  line-height: 31px;
-  letter-spacing: -3.6%;
-  color: #ccc;
-  margin-bottom: 40px;
-  max-width: 600px;
-  margin-left: auto;
-  margin-right: auto;
+ font-size: 22px;
+ font-weight: 400;
+ line-height: 31px;
+ letter-spacing: -3.6%;
+ color: #ccc;
+ margin-bottom: 40px;
+ max-width: 600px;
+ margin-left: auto;
+ margin-right: auto;
 }
 #hero .hero-button {
-  background: white;
-  color: black;
-  border: none;
-  margin-top: 20px;
-  padding: 12px 24px;
-  border-radius: 10px;
-  font-size: 16px;
-  cursor: pointer;
-  font-weight: 500;
+ background: white;
+ color: black;
+ border: none;
+ margin-top: 20px;
+ padding: 12px 24px;
+ border-radius: 10px;
+ font-size: 16px;
+ cursor: pointer;
+ font-weight: 500;
 }
 
 #hero .hero-button:hover {
-  background: #f2f2f2;
+ background: #f2f2f2;
 }
 
 #hero .hero-icon {
-  position: absolute;
-  width: 120px;
-  height: auto;
+ position: absolute;
+ width: 120px;
+ height: auto;
 }
 
 #hero .hero-icon.left {
-  width: 200px;
-  height: 200px;
-  left: -64px;
-  bottom: 120px;
+ width: 200px;
+ height: 200px;
+ left: -64px;
+ bottom: 120px;
 }
 
 #hero .hero-icon.right {
-  width: 200px;
-  height: 200px;
-  right: -92px;
-  top: 100px;
+ width: 200px;
+ height: 200px;
+ right: -92px;
+ top: 100px;
 }
-
 /* logoticker */
 
 #logoticker {
@@ -182,6 +184,7 @@
 
 #logoticker .grid-title {
   color: #999999;
+  font-size: 0.95rem;
   font-size: 18px;
   margin-bottom: 40px;
   font-weight: 400;
@@ -215,6 +218,7 @@
 }
 
 #grid .grid-header h2 {
+  font-size: 2.5rem;
   font-size: 54px;
   font-weight: 700;
   margin-bottom: 20px;
@@ -222,6 +226,7 @@
 
 #grid .grid-header p {
   color: #ccc;
+  font-size: 1rem;
   font-size: 22px;
   max-width: 700px;
   margin: 0 auto 60px;
@@ -232,6 +237,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  gap: 30px;
   gap: 16px;
 }
 
@@ -240,6 +246,7 @@
   border: 1px solid #333;
   border-radius: 10px;
   padding: 40px 20px;
+  width: 300px;
   width: 360px;
   height: 260px;
   text-align: center;
@@ -247,31 +254,33 @@
 }
 
 #grid .grid-card:hover {
-  transform: translateY(-5px);
+transform: translateY(-5px);
 }
 
 #grid .grid-card img {
-  background: #fff;
-  border-radius: 10px;
-  padding: 10px;
-  width: 40px;
-  height: 40px;
-  margin-bottom: 20px;
+background: #fff;
+border-radius: 10px;
+padding: 10px;
+width: 40px;
+height: 40px;
+margin-bottom: 20px;
 }
 
 #grid .grid-card h3 {
-  font-size: 16px;
-  font-weight: 600;
-  margin-bottom: 10px;
+font-size: 1rem;
+font-size: 16px;
+font-weight: 600;
+margin-bottom: 10px;
 }
 
 #grid .grid-card p {
-  color: #ccc;
-  font-size: 16px;
-  line-height: 1.5;
+color: #ccc;
+font-size: 0.95rem;
+font-size: 16px;
+line-height: 1.5;
 }
 
-/* product sesion */
+/* product */
 
 #product {
   background: linear-gradient(to bottom,#000000,#16032a,#1d0841,#3f2270);
@@ -286,12 +295,14 @@
 }
 
 #product .product-content h2 {
+  font-size: 2.5rem;
   font-size: 54px;
   font-weight: 700;
   margin-bottom: 20px;
 }
 
 #product .product-content p {
+  font-size: 1.1rem;
   font-size: 22px;
   color: #ccc;
   max-width: 700px;
@@ -303,7 +314,7 @@
   width: 100%;
   max-width: 1000px;
   border-radius: 12px;
-  
+
 }
 
 /* faq */
@@ -319,6 +330,7 @@
   margin: 0 auto;
 }
 #faq .faq-wrapper h2 {
+  font-size: 2.5rem;
   font-size: 54px;
   font-weight: 700;
   text-align: center;
@@ -331,6 +343,7 @@
   align-items: center;
   padding: 18px 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  font-size: 1rem;
   font-size: 18px;
   font-weight: 500;
   cursor: pointer;
@@ -342,10 +355,13 @@
 
 }
 #faq .faq-wrapper .faq-item .plus {
+  font-size: 1.125rem; 
   font-size: 18px; 
   font-weight: 700;
 }
+
 /* frame section */
+
 #frame {
   background: #000;
   padding: 100px 20px;
@@ -432,6 +448,8 @@
 #footer {
   background-color: #000;
   padding: 20px 40px;
+  color: #999999;
+  font-size: 0.9rem;
   color: #808080;
   font-size: 14px;
 }
@@ -558,7 +576,7 @@
     text-align: center;
     padding: 10px 0;
     font-size: 0.8rem;
-   
+
   }
 
   #navbar-desktop .logo {
@@ -663,7 +681,7 @@
   #faq .faq-wrapper .faq-item .plus {
     align-self: flex-end;
   }
- 
+
 }
 @media (max-width: 380px) {
   #faq {
@@ -687,7 +705,7 @@
   #faq .faq-wrapper .faq-item .plus {
     align-self : flex-end;
   }
-  
+
 }
 
 /* hero */
@@ -761,7 +779,9 @@
     display: none; 
   }
 }
+
 /* logoticker */
+
 @media (max-width: 768px) {
   #logoticker {
     padding: 3rem 1rem;
@@ -799,11 +819,13 @@
     height: 24px;
   }
 }
+
 /* frame */
+
 @media (max-width: 768px) {
   #frame {
     padding: 77px 77px;
-    
+
   }
 
   #frame .frame-wrapper {
@@ -851,8 +873,8 @@
     width: 80px;
     display: none;
   }
-  
-  
+
+
   #frame .frame-wrapper .frame-content h2 {
     font-size: 1.75rem;
   }
@@ -867,57 +889,59 @@
     max-width: 300px;
   }
 }
+
+
 /* grid session */
 
 @media (max-width: 768px) {
-  #grid .grid-header h2 {
-    font-size: 2rem;
-  }
+ #grid .grid-header h2 {
+   font-size: 2rem;
+ }
 
-  #grid .grid-header p {
-    font-size: 0.95rem;
-    margin-bottom: 3rem;
-  }
+ #grid .grid-header p {
+   font-size: 0.95rem;
+   margin-bottom: 3rem;
+ }
 
-  #grid .grid-card {
-    width: 100%;
-    max-width: 400px;
-  }
+ #grid .grid-card {
+   width: 100%;
+   max-width: 400px;
+ }
 }
 
 @media (max-width: 480px) {
-  #grid {
-    padding: 3.5rem 1rem;
-  }
+ #grid {
+   padding: 3.5rem 1rem;
+ }
 
-  #grid .grid-header h2 {
-    font-size: 1.75rem;
-  }
+ #grid .grid-header h2 {
+   font-size: 1.75rem;
+ }
 
-  #grid .grid-header p {
-    font-size: 0.9rem;
-  }
+ #grid .grid-header p {
+   font-size: 0.9rem;
+ }
 
-  #grid .grid-cards {
-    gap: 1.25rem;
-  }
+ #grid .grid-cards {
+   gap: 1.25rem;
+ }
 
-  #grid .grid-card {
-    padding: 2rem 1rem;
-  }
+ #grid .grid-card {
+   padding: 2rem 1rem;
+ }
 
-  #grid .grid-card img {
-    width: 36px;
-    height: 36px;
-  }
+ #grid .grid-card img {
+   width: 36px;
+   height: 36px;
+ }
 
-  #grid .grid-card h3 {
-    font-size: 0.95rem;
-  }
+ #grid .grid-card h3 {
+   font-size: 0.95rem;
+ }
 
-  #grid .grid-card p {
-    font-size: 0.9rem;
-  }
+ #grid .grid-card p {
+   font-size: 0.9rem;
+ }
 }
 
 /* footer */
